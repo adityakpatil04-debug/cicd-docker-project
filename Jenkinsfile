@@ -23,5 +23,15 @@ pipeline {
                 '''
             }
         }
+
+        stage('Test Website') {
+            steps {
+                sh '''
+                    sleep 3
+                    curl --fail --silent --show-error http://localhost:8082/ > /dev/null
+                    echo "Website test passed!"
+                '''
+            }
+        }
     }
 }
