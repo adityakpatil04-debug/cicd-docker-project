@@ -171,3 +171,14 @@ Jenkins checks the GitHub repository periodically for changes. This project uses
 - Triggering builds when GitHub changes are detected
 - Performing basic automated HTTP testing
 - Troubleshooting and verifying pipeline execution
+
+## Project Screenshots
+
+### 1. Jenkins Pipeline
+
+![Successful Jenkins CI/CD Pipeline](jenkins-pipeline.png)
+
+### 2. Deployed Website
+
+![Website running in Docker](website.png)
+
